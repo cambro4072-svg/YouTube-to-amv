@@ -1,3 +1,3 @@
-pip install yt-dlp
-# ffmpeg must also be installed!
-python youtube_to_amv.py
+#!/bin/bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py --server.port=$PORT --server.address=0.0.0.0
